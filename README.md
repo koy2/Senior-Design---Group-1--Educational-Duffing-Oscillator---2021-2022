@@ -53,5 +53,4 @@ There are two files for the solid state relay that are executed by (4a) and (4b)
 ***
 
 ### YouTube Link
-Link[1]
-[1]: https://www.youtube.com/watch?v=xNzb_8S5Ylo
+https://www.youtube.com/watch?v=xNzb_8S5Ylo
