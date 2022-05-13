@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type = Application
+Encoding = UTF-8
+Name = (6)_Offset
+Exec = python3 /home/pi/Desktop/Educational_Duffing_Oscillator_for_Displaying_Chaotic_Motion/Program_Files/Codes/offset.py
+Icon =/home/pi/mu_code/code/hamster.jpeg
+StartupNotify = false
+Terminal = true

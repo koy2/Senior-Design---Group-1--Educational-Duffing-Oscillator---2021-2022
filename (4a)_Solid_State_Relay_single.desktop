@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type = Application
+Encoding = UTF-8
+Name = (4a)_Solid_State_Relay_single.desktop
+Exec = python3 /home/pi/Desktop/Educational_Duffing_Oscillator_for_Displaying_Chaotic_Motion/Program_Files/Codes/solid_state_relay_single.py
+Icon =/home/pi/mu_code/code/hamster.jpeg
+StartupNotify=true
+Terminal = false
