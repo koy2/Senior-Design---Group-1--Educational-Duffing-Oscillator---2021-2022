@@ -8,7 +8,7 @@ Team Members: Yan Lok Ko (EE), Bryce C. Manz (EE), Amira Shagan (EE), Steven Zak
 Advisors: Dr. Richard Halpern (Physics) and Dr. Mohammad Zunoubi (EE)
 
 ***
-
+![image info](./pictures/image.png)
 ### Hardware Diagram
 ### Software Flowchart of the Interface
 ### Solid State Relay
