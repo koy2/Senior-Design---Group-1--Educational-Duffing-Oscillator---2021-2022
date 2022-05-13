@@ -9,10 +9,19 @@ Advisors: Dr. Richard Halpern (Physics) and Dr. Mohammad Zunoubi (EE)
 ***
 
 ### Hardware Diagram
+
+![hardware](https://user-images.githubusercontent.com/100855196/168207415-3be740d0-8f18-4b6e-a5ba-d93967334297.PNG)
+
+*Figure 01. Hardware Diagram*
+
+This is the hardware diagram for the apparatus the programs were used for.
+
 ### Software Flowchart of the Interface
-From the interface, the user can collect data, load a saved graph, change the save mode, view the "About Us", and exit the program.
+From the interface, the user can collect data, load a saved graph, change the save mode, view the "About Us", and exit the program. The interface is comprised of three programs running concurrently: main_pt1.py, main_pt2.py, and interface.py. The first program collects the data from the sensor and writes it into the files, one for time and one for distance, as well as plots the graph. The second program executes the save function after the windows for the plot and the listed data are closed; it also lists the data. The user interface itself is created by interface.py. User input from the interface determines how the first two programs will execute.
 
 ![interface](https://user-images.githubusercontent.com/100855196/168206307-388bd44c-f87f-4ab0-b0ee-81be744a5bc1.PNG)
+
+*Figure 02. Flowchart for the Interface*
 ***
 ### Solid State Relay
 ### Required Import Statements on Raspberry Pi
