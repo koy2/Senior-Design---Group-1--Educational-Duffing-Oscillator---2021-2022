@@ -1,7 +1,7 @@
 ## State University of New York at New Paltz: Senior Design I & II (2021-2022)
 ***
 ### About this Project:
-Group 1: Educational Duffing Oscillator for Display Chaotic Motion
+Group 1: Educational Duffing Oscillator for Displaying Chaotic Motion
 
 Team Members: Yan Lok Ko (EE), Bryce C. Manz (EE), Amira Shagan (EE), Steven Zakirov (EE)
 
@@ -47,3 +47,11 @@ There are two files for the solid state relay that are executed by (4a) and (4b)
 * The pi needs at least 32 GB of memory and the username MUST be pi or the paths for the files must be changed.
 * DO NOT do pip3 install board 
 * Also go to Interfaces in the Raspberry Pi Configuration and I2C and SPI
+
+***
+
+***
+
+### YouTube Link
+Link[1]
+[1]: https://www.youtube.com/watch?v=xNzb_8S5Ylo
