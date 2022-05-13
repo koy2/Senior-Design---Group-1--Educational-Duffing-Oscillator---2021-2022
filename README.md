@@ -24,6 +24,10 @@ From the interface, the user can collect data, load a saved graph, change the sa
 *Figure 02. Flowchart for the Interface*
 ***
 ### Solid State Relay
+There are two files for the solid state relay: (4a) and (4b). The one with the word 'double' runs two relay; the other runs a single relay. The period is this: (Period of the duty cycle) x (the number of full steps made by dividing 1 by the step size). The step size range is (0,1], and the period of the duty cycle cannot be less than 0.04. This forces the minimum step size to be 0.05 (not tested for in current code).
+
+***
+
 ### Required Import Statements on Raspberry Pi
 ### File Descriptions
 ### Other Important Notes
