@@ -24,10 +24,26 @@ From the interface, the user can collect data, load a saved graph, change the sa
 *Figure 02. Flowchart for the Interface*
 ***
 ### Solid State Relay
-There are two files for the solid state relay: (4a) and (4b). The one with the word 'double' runs two relay; the other runs a single relay. The period is this: (Period of the duty cycle) x (the number of full steps made by dividing 1 by the step size). The step size range is (0,1], and the period of the duty cycle cannot be less than 0.04. This forces the minimum step size to be 0.05 (not tested for in current code).
+There are two files for the solid state relay that are executed by (4a) and (4b). The one with the word 'double' runs two relay; the other runs a single relay. The period is this: (Period of the duty cycle)(the number of full steps made by dividing 1 by the step size). The step size range is (0,1], and the period of the duty cycle cannot be less than 0.04. This forces the minimum step size to be 0.05 (not tested for in current code).
 
 ***
 
 ### Required Import Statements on Raspberry Pi
-### File Descriptions
+* pip3 install tk
+* pip3 install adafruit-circuitpython-vl53l0x
+* pip3 install numpy
+* pip3 install matlibplot
+* pip3 install pandas
+* pip3 install pillow
+* pip3 install bus
+* pip3 install arr
+* pip3 install adafruit-blinka
+
+***
+
 ### Other Important Notes
+* reset.py resets the files so that the interface can be reset.
+* If the relay does not run, make sure that in Program_Files => System_Communication => status_relay.txt != 1. You can edit in a 0. This is not done automatically to avoid any relay damage that may result if two relay programs are running at a time.
+* The pi and the power supply will need two separate 20 A outlets to run properly.
+* The pi needs at least 32 GB of memory and the username MUST be pi or the paths for the files must be changed.
+* DO NOT do pip3 install board 
