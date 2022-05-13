@@ -35,7 +35,6 @@ There are two files for the solid state relay that are executed by (4a) and (4b)
 * pip3 install matlibplot
 * pip3 install pandas
 * pip3 install pillow
-* pip3 install bus
 * pip3 install arr
 * pip3 install adafruit-blinka
 
@@ -47,3 +46,4 @@ There are two files for the solid state relay that are executed by (4a) and (4b)
 * The pi and the power supply will need two separate 20 A outlets to run properly.
 * The pi needs at least 32 GB of memory and the username MUST be pi or the paths for the files must be changed.
 * DO NOT do pip3 install board 
+* Also go to Interfaces in the Raspberry Pi Configuration and I2C and SPI
