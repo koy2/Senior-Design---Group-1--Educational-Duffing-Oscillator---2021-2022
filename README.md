@@ -16,6 +16,8 @@ Advisors: Dr. Richard Halpern (Physics) and Dr. Mohammad Zunoubi (EE)
 
 This is the hardware diagram for the apparatus the programs were used for.
 
+***
+
 ### Software Flowchart of the Interface
 From the interface, the user can collect data, load a saved graph, change the save mode, view the "About Us", and exit the program. The interface is comprised of three programs running concurrently: main_pt1.py, main_pt2.py, and interface.py. The first program collects the data from the sensor and writes it into the files, one for time and one for distance, as well as plots the graph. The second program executes the save function after the windows for the plot and the listed data are closed; it also lists the data. The user interface itself is created by interface.py. User input from the interface determines how the first two programs will execute.
 
@@ -46,7 +48,14 @@ There are two files for the solid state relay that are executed by (4a) and (4b)
 * The pi and the power supply will need two separate 20 A outlets to run properly.
 * The pi needs at least 32 GB of memory and the username MUST be pi or the paths for the files must be changed.
 * DO NOT do pip3 install board 
-* Also go to Interfaces in the Raspberry Pi Configuration and I2C and SPI
+* Go to Interfaces in the Raspberry Pi Configuration and enable I2C and SPI
+
+***
+### When All the Hardware has been Assembled:
+1) Measure the offset using offset.py (Program #6) - if desired, can also put in one by editing offset.txt in System_Communication 
+2) Run Reset (Program #0)
+3) Open program #1, #2, #3 (in that order is best). A LED will light up after each program is started.
+4) Relay - Use Program #4a, or connect another relay to use Program #4b, or write your own. (relay.txt may have to be set to 0 in System_Communication for #4a/#4b to run)
 
 ***
 
