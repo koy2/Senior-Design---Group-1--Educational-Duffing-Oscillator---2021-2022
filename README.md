@@ -10,7 +10,7 @@ Advisors: Dr. Richard Halpern (Physics) and Dr. Mohammad Zunoubi (EE)
 
 ### Hardware Diagram
 
-![hardware](https://user-images.githubusercontent.com/100855196/168207415-3be740d0-8f18-4b6e-a5ba-d93967334297.PNG)
+![hardware](https://user-images.githubusercontent.com/100855196/168451199-951625f5-cbef-4280-ab89-30b381edbc63.PNG)
 
 *Figure 01. Hardware Diagram*
 
